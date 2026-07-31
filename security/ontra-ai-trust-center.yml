@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://www.ontra.ai/products/security-and-privacy/
+url: https://www.ontra.ai/products/security-and-privacy/
+note: >-
+  https://www.ontra.ai/products/security-and-trust/ 301-redirects to the
+  security-and-privacy page, which publishes Ontra's enterprise-grade
+  certifications and data-protection posture. No dedicated trust.<domain>
+  portal was found.
+certifications:
+- SOC 2 Type 2 (all 5 trust services criteria)
+- ISO 27001:2022
+- ISO 42001
+- GDPR
+- CCPA
+evidence:
+- source: https://www.ontra.ai/products/security-and-privacy/
+  keywords:
+  - soc 2 type 2
+  - iso 27001:2022
+  - iso 42001
+  - gdpr
+  - ccpa
+  - enterprise-grade certifications

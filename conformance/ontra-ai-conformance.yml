@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.ontra.ai/products/security-and-privacy/
+note: >-
+  Ontra publishes no public API, OpenAPI, or standards-based technical spec, so
+  cross-cutting technical conformance (oauth2, oidc, rfc9457, pagination, etc.)
+  cannot be derived. The standards below are the compliance/security programs
+  Ontra publicly attests to on its security-and-privacy page.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: "security-and-privacy page: 'SOC 2 Type 2, for all 5 trust criteria'"
+- id: iso-27001-2022
+  conforms: true
+  evidence: "security-and-privacy page + blog: ISO 27001:2022 certification"
+- id: iso-42001
+  conforms: true
+  evidence: "security-and-privacy page: ISO 42001 (AI management system) certification"
+- id: gdpr
+  conforms: true
+  evidence: "security-and-privacy page: GDPR compliance"
+- id: ccpa
+  conforms: true
+  evidence: "security-and-privacy page: CCPA compliance"
+- id: oauth2
+  conforms: false
+  evidence: no public API / OpenAPI declaring oauth2 security schemes
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API surface

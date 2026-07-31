@@ -1,7 +1,17 @@
 aid: ontra-ai
 name: Ontra AI
-description: Ontra AI is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ontra is an AI-powered contract automation and digital execution platform for
+  private markets. It automates routine legal and compliance workflows for
+  investment firms, investment banks, and law firms, including contract
+  negotiation, entity management (Atlas), in-house negotiation (Accord),
+  automated due-diligence questionnaires (DDQ), investor obligation management
+  (Insight for Funds), structured credit data (Insight for Credit), and reverse
+  KYC services. The platform combines a global network of legal professionals
+  with proprietary AI to summarize, search, compare, and surface data from legal
+  documents, and exposes a read-only MCP server for real-time access to Atlas
+  entity data. Ontra serves more than 1,000 firms including Blackstone, Bain
+  Capital, AllianceBernstein, and Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/ontra-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,63 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.ontra.ai/favicon.ico
 tags:
 - Company
+- Legal Tech
+- Contract Automation
+- Private Markets
+- Entity Management
+- Compliance
+- Artificial Intelligence
+- MCP
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ontra-ai-domain-security.yml
+- type: Website
+  url: https://www.ontra.ai
+- type: Pricing
+  url: https://www.ontra.ai/products/pricing/
+- type: Blog
+  url: https://www.ontra.ai/blog/
+- type: PrivacyPolicy
+  url: https://www.ontra.ai/privacy-policy/
+- type: TermsOfService
+  url: https://www.ontra.ai/terms-of-service/
+- type: Support
+  url: https://www.ontra.ai/contact-us/
+- type: Login
+  url: https://app.ontra.ai/
+- type: SignUp
+  url: https://www.ontra.ai/demo/
+- type: TrustCenter
+  url: security/ontra-ai-trust-center.yml
+- type: Compliance
+  url: https://www.ontra.ai/products/security-and-privacy/
+- type: Conformance
+  url: conformance/ontra-ai-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
