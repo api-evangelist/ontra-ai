@@ -1,0 +1,68 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.ontra.ai/products/pricing/
+sources:
+- https://www.ontra.ai/products/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Standard Edition
+published: true
+note: Only numeric price shown is the $2,000 monthly minimum fee for Contract Automation Advanced and
+  Premier editions; all other products say 'Request Pricing' or 'Try our Proof of Value'.
+plan_count: 9
+currency: USD
+plans:
+- name: Contract Automation — Standard Edition
+  price_text: Monthly Minimum Fee No
+  period: month
+  included_quota: Ontra Market Playbook; qualified contract professionals; 24-hour return to counterparty;
+    dedicated customer success team; document management system
+- name: Contract Automation — Advanced Edition
+  price_text: $2,000
+  price: 2000
+  currency: USD
+  period: month
+  unit: monthly minimum fee
+  included_quota: Ontra Market Playbook with unlimited customizations; qualified lawyers; 24-hour return
+    to counterparty
+- name: Contract Automation — Premier Edition
+  price_text: $2,000
+  price: 2000
+  currency: USD
+  period: month
+  unit: monthly minimum fee
+  included_quota: Unlimited customizations; qualified lawyers with top-tier firm experience
+- name: Accord
+  price_text: Request Pricing
+  period: none
+  included_quota: 'Annual software license: Digital Playbook, Contract Dashboard, AI-Powered Markup Tools,
+    Unlimited Documents, Unlimited Users*'
+- name: Insight for Funds — Standard/Advanced/Premier Tier
+  price_text: Try our Proof of Value
+  period: none
+  included_quota: Feature tiers for obligation management
+- name: Insight for Credit — Advanced/Premier Tier
+  price_text: Try our Proof of Value
+  period: none
+  included_quota: Credit covenant data tiers
+- name: Atlas
+  price_text: Request Pricing
+  period: none
+  included_quota: Annual software license incl. standard API package
+- name: KYC
+  price_text: Request Pricing
+  period: none
+  included_quota: Fully outsourced reverse KYC service
+- name: DDQ
+  price_text: Request Pricing
+  period: none
+  included_quota: DDQ software license
