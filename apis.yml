@@ -56,6 +56,8 @@ tags:
 - MCP
 apis: []
 common:
+- type: Plans
+  url: plans/ontra-ai-plans-pricing.yml
 - type: DomainSecurity
   url: security/ontra-ai-domain-security.yml
 - type: Website
